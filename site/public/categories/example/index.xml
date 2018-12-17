@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Example on Classic</title>
+    <link>/categories/example/</link>
+    <description>Recent content in Example on Classic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 30 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/example/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markdown Guide (modified)</title>
+      <link>/post/2018/08/30/markdown-guide-modified/</link>
+      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018/08/30/markdown-guide-modified/</guid>
+      <description>An h1 header Paragraphs are separated by a blank line.
+2nd paragraph. Italic, bold, and monospace. Itemized lists look like:
+ this one that one the other one  Note that &amp;mdash; not considering the asterisk &amp;mdash; the actual text content starts at 4-columns in.
+ Block quotes are written like so.
+They can span multiple paragraphs, if you like.
+ Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex.</description>
+    </item>
+    
+    <item>
+      <title>Hacker with Bullhorn</title>
+      <link>/post/2012/04/23/hacker-with-horn/</link>
+      <pubDate>Mon, 23 Apr 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012/04/23/hacker-with-horn/</guid>
+      <description>Hacker with bullhorn: &amp;ldquo;Save your money! Accept one of our free tanks! It is invulnerable, and can drive across rocks and swamps at ninety miles an hour while getting a hundred miles to the gallon!&amp;rdquo;
+Prospective station wagon buyer: &amp;ldquo;I know what you say is true&amp;hellip;but&amp;hellip;er&amp;hellip;I don&amp;rsquo;t know how to maintain a tank!&amp;rdquo;
+Bullhorn: &amp;ldquo;You don&amp;rsquo;t know how to maintain a station wagon either!&amp;rdquo;
+Buyer: &amp;ldquo;But this dealership has mechanics on staff.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Classic</title>
+    <link>/categories/blog/</link>
+    <description>Recent content in Blog on Classic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 Mar 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Command Line Awesomeness</title>
+      <link>/post/2012/03/12/command-line-awesomeness/</link>
+      <pubDate>Mon, 12 Mar 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012/03/12/command-line-awesomeness/</guid>
+      <description>This crud is called HTML (HyperText Markup Language) and it is basically a very simple programming language instructing your web browser how to draw a page on a screen. Anyone can learn HTML and many people do. The important thing is that no matter what splendid multimedia web pages they might represent, HTML files are just telegrams.
+ When Ronald Reagan was a radio announcer, he used to call baseball games by reading the terse descriptions that trickled in over the telegraph wire and were printed out on a paper tape.</description>
+    </item>
+    
+  </channel>
+</rss>

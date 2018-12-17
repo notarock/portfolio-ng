@@ -1,0 +1,3 @@
+[submodule "site/themes/hugo-classic"]
+	path = site/themes/hugo-classic
+	url = https://github.com/notarock/hugo-classic

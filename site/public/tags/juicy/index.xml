@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Juicy on Classic</title>
+    <link>/tags/juicy/</link>
+    <description>Recent content in Juicy on Classic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Jan 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/juicy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Juicy Code</title>
+      <link>/post/2012/01/23/juicy-code/</link>
+      <pubDate>Mon, 23 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2012/01/23/juicy-code/</guid>
+      <description>Check out this JUICY! code:
+def with_value_from_database(value) self.class.from_database(name, value, type) end def with_cast_value(value) self.class.with_cast_value(name, value, type) end def with_type(type) if changed_in_place? with_value_from_user(value).with_type(type) else self.class.new(name, value_before_type_cast, type, original_attribute) end end  </description>
+    </item>
+    
+  </channel>
+</rss>

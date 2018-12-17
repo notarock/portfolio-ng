@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Markdown Guide (modified) | Classic</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/fonts.css" />
+    <link rel="stylesheet" href="/css/theme-override.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css" integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body);
+        });
+    </script>
+
+<header>
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <nav>
+    <ul>
+      
+      
+      <li class="pull-left ">
+        <a href="/">/home/classic</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/">~/home</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/categories/">~/categories</a>
+      </li>
+      
+      
+      <li class="pull-left ">
+        <a href="/tags/">~/tags</a>
+      </li>
+      
+
+      
+      
+      <li class="pull-right">
+        <a href="/index.xml">~/subscribe</a>
+      </li>
+      
+
+    </ul>
+  </nav>
+</header>
+
+  </head>
+
+  <body>
+    <br/>
+
+<div class="article-meta">
+<h1><span class="title">Markdown Guide (modified)</span></h1>
+<h2 class="author">Open Source</h2>
+<h2 class="date">2018/08/30</h2>
+<p class="terms">
+  
+  
+  Categories: <a href="/categories/example">Example</a> 
+  
+  
+  
+  Tags: <a href="/tags/markdown">Markdown</a> 
+  
+  
+</p>
+</div>
+
+
+
+<main>
+
+
+<h1 id="an-h1-header">An h1 header</h1>
+
+<p>Paragraphs are separated by a blank line.</p>
+
+<p>2nd paragraph. <em>Italic</em>, <strong>bold</strong>, and <code>monospace</code>. Itemized lists
+look like:</p>
+
+<ul>
+<li>this one</li>
+<li>that one</li>
+<li>the other one</li>
+</ul>
+
+<p>Note that &mdash; not considering the asterisk &mdash; the actual text
+content starts at 4-columns in.</p>
+
+<blockquote>
+<p>Block quotes are
+written like so.</p>
+
+<p>They can span multiple paragraphs,
+if you like.</p>
+</blockquote>
+
+<p>Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., &ldquo;it&rsquo;s all
+in chapters 12&ndash;14&rdquo;). Three dots &hellip; will be converted to an ellipsis.
+Unicode is supported. ☺</p>
+
+<h2 id="an-h2-header">An h2 header</h2>
+
+<p>Here&rsquo;s a numbered list:</p>
+
+<ol>
+<li>first item</li>
+<li>second item</li>
+<li>third item</li>
+</ol>
+
+<p>Note again how the actual text starts at 4 columns in (4 characters
+from the left side). Here&rsquo;s a code sample:</p>
+
+<pre><code># Let me re-iterate ...
+for i in 1 .. 10 { do-something(i) }
+</code></pre>
+
+<p>As you probably guessed, indented 4 spaces. By the way, instead of
+indenting the block, you can use delimited blocks, if you like:</p>
+
+<pre><code>define foobar() {
+    print &quot;Welcome to flavor country!&quot;;
+}
+</code></pre>
+
+<p>(which makes copying &amp; pasting easier). You can optionally mark the
+delimited block for Pandoc to syntax highlight it:</p>
+
+<pre><code class="language-python">import time
+# Quick, count to ten!
+for i in range(10):
+    # (but not *too* quick)
+    time.sleep(0.5)
+    print i
+</code></pre>
+
+<h3 id="an-h3-header">An h3 header</h3>
+
+<p>Now a nested list:</p>
+
+<ol>
+<li><p>First, get these ingredients:</p>
+
+<ul>
+<li>carrots</li>
+<li>celery</li>
+<li>lentils</li>
+</ul></li>
+
+<li><p>Boil some water.</p></li>
+
+<li><p>Dump everything in the pot and follow
+this algorithm:</p>
+
+<pre><code>find wooden spoon
+uncover pot
+stir
+cover pot
+balance wooden spoon precariously on pot handle
+wait 10 minutes
+goto first step (or shut off burner when done)
+</code></pre>
+
+<p>Do not bump wooden spoon or it will fall.</p></li>
+</ol>
+
+<p>Notice again how text always lines up on 4-space indents (including
+that last line which continues item 3 above).</p>
+
+<p>Here&rsquo;s a link to <a href="http://foo.bar">a website</a>, to a <a href="local-doc.html">local
+doc</a>, and to a <a href="#an-h2-header">section heading in the current
+doc</a>. Here&rsquo;s a footnote <sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>.</p>
+
+<p>Tables can look like this:</p>
+
+<table>
+<thead>
+<tr>
+<th>size</th>
+<th>material</th>
+<th>color</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>9</td>
+<td>leather</td>
+<td>brown</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>hemp canvas</td>
+<td>natural</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>glass</td>
+<td>transparent</td>
+</tr>
+</tbody>
+</table>
+
+<p>Table: Shoes, their sizes, and what they&rsquo;re made of</p>
+
+<p>(The above is the caption for the table.)</p>
+
+<p>A horizontal rule follows.</p>
+
+<hr />
+
+<p>Here&rsquo;s a definition list:</p>
+
+<dl>
+<dt>apples</dt>
+<dd>Good for making applesauce.</dd>
+<dt>oranges</dt>
+<dd>Citrus!</dd>
+<dt>tomatoes</dt>
+<dd>There&rsquo;s no &ldquo;e&rdquo; in tomatoe.</dd>
+</dl>
+
+<p>(Put a blank line between each term/definition pair to spread
+things out more.)</p>
+
+<p>and images can be specified like so:</p>
+
+<p><img src="https://github.com/goodroot/hugo-classic/raw/master/images/partywizard.gif" alt="example image" title="An exemplary image" /></p>
+
+<p>Inline math equations go in like so: \(\omega = d\phi / dt\).
+Display math should get its own line and be put in in
+double-dollarsigns:</p>
+
+<p>$$I = \int \rho R^{2} dV$$</p>
+
+<p>And note that you can backslash-escape any punctuation characters
+which you wish to be displayed literally, ex.: `foo`, *bar*, etc.</p>
+
+<h4 id="images-auto-center">Images auto center:</h4>
+
+<p><img src="http://emojis.slackmojis.com/emojis/images/1475875185/1223/party-dinosaur.gif?1475875185" alt="Party" /></p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Footnote text goes here.
+ <a class="footnote-return" href="#fnref:1">↩</a></li>
+</ol>
+</div>
+
+</main>
+
+    <footer>
+      
+<script>
+(function() {
+  function center_el(tagName) {
+    var tags = document.getElementsByTagName(tagName), i, tag;
+    for (i = 0; i < tags.length; i++) {
+      tag = tags[i];
+      var parent = tag.parentElement;
+      
+      if (parent.childNodes.length === 1) {
+        
+        if (parent.nodeName === 'A') {
+          parent = parent.parentElement;
+          if (parent.childNodes.length != 1) continue;
+        }
+        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
+      }
+    }
+  }
+  var tagNames = ['img', 'embed', 'object'];
+  for (var i = 0; i < tagNames.length; i++) {
+    center_el(tagNames[i]);
+  }
+})();
+</script>
+
+      
+      <hr/>
+      Open-Source | <a href="https://github.com/goodroot/hugo-classic">Github</a> | <a href="https://twitter.com/thegoodroot">Twitter</a>
+      
+    </footer>
+  </body>
+</html>
+
