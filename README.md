@@ -7,7 +7,7 @@ et efficaces?
 
 Build
 ```
-docker build -t portfolio-ng
+docker build . -t portfolio-ng
 ```
 
 Run
