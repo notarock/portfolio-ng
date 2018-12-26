@@ -21,21 +21,20 @@ la plante en se basant sur les données reçues par les sondes ainsi que sur dif
 
 ## Ce que nous avons fait
 
-Après une séance de _brainstorming_, nous avons relevé plusieurs fontionnalités à ajouter à ce serveur pour une premiere itération.
+Après une séance de _brainstorming_, nous avons relevé plusieurs fonctionnalités à ajouter à ce serveur pour une première itération.
 Ces fonctionnalités sont les suivantes:
 
-- Afficher les informations de un ou plusieurs "buckets".
+- Afficher les informations d'un ou plusieurs "buckets".
 - Se connecter à un "bucket" par MQTT afin d'enregistrer les valeurs des capteurs.
-- Envoyer des commandes de contrôles tel que "activer fan" à un "bucket".
+- Envoyer des commandes de contrôles tels que "activer fan" à un "bucket".
 
 ## Le résultat
 
 Après plusieurs ateliers de groupes, nous avons terminé une première itération du serveur web.
-
 Pour faire cette API, nous avons utilisé le framework _Flask_ en python. Ce framework simple permet de créer
 une API web en à peine quelques lignes. Étant simple à apprendre, Python nous a permis de faire avancer le projet rapidement.
 
-Avec cette itération, nous avons assée de fonctionnalité pour passer à la prochaine étape: Visionner les données en temps réel
+Avec cette itération, nous avons assez de fonctionnalité pour passer à la prochaine étape: visionner les données en temps réel
 avec un panneau d'administration web qui permet aussi d'envoyer une commande à un bucket.
 
 ## [Code disponible ici](https://github.com/ClubCedille/jardiniot)
