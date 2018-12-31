@@ -12,10 +12,9 @@ docker build . -t portfolio-ng
 
 Run
 ```
-docker run -d -p 80:<<port>> portfolio-ng
+docker run -d -p 1313:1313 portfolio-ng
 ```
 
 ### Ressources 
 
-- [Dockerfile](https://dev.to/eduardort/hugo-and-nginx-multi-stage-build-dockerfile-3o63)
 - [Theme original](https://github.com/goodroot/hugo-classic)
