@@ -16,7 +16,7 @@ footnotereturnlinkcontents = "↩"
     url = "/"
     weight = 1
 [[menu.main]]
-    name = "Categories"
+    name = "Catégories"
     url = "/categories/"
     weight = 2
 [[menu.main]]
@@ -24,10 +24,10 @@ footnotereturnlinkcontents = "↩"
     url = "/tags/"
     weight = 3
 [[menu.feed]]
-    name = "Subscribe"
+    name = "RSS"
     url = "/index.xml"
 
 [params]
-    description = "A simple, minimal blog for those who love text."
+    description = "Le blog de Roch D'amour"
     footer = "| [Github](https://github.com/notarock) | [Linkedin](https://www.linkedin.com/in/694958129/) | [Youtube](https://www.youtube.com/channel/UCQjr8-APqcSDEzaUp5JUYXQ) |"
     custom_css = ["css/theme-override.css"]
