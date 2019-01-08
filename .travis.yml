@@ -1,0 +1,9 @@
+services:
+  - docker
+
+install:
+  - docker build . -t portfolio
+  - docker run -d -p 1313:1313 --name portfolio portfolio
+
+script:
+  - docker ps | grep -q portfolio
