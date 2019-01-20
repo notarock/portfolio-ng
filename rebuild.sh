@@ -1,7 +1,7 @@
 #!/bin/bash
 
-imageName=xx:portfolio
-containerName=portfolio
+imageName=xx:blog
+containerName=blog
 
 docker build -t $imageName -f Dockerfile .
 
