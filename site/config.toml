@@ -1,33 +1,69 @@
 baseurl = "/"
-languageCode = "fr-ca"
-title = "Notarock"
-theme = "hugo-classic"
-googleAnalytics = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-enableEmoji = true
-footnotereturnlinkcontents = "↩"
-
-[permalinks]
-    post = "/:year/:slug/"
-
-[[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-[[menu.main]]
-    name = "Catégories"
-    url = "/categories/"
-    weight = 2
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 3
-[[menu.feed]]
-    name = "RSS"
-    url = "/index.xml"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
 
 [params]
-    description = "Le blog de Roch D'amour"
-    footer = "| [Github](https://github.com/notarock) | [Linkedin](https://www.linkedin.com/in/694958129/) | [Youtube](https://www.youtube.com/channel/UCQjr8-APqcSDEzaUp5JUYXQ) |"
-    custom_css = ["css/theme-override.css"]
+  # dir name of your blog content (default is `content/post`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "green"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 5
+  # show selector to switch language
+  showLanguageSelector = true
+  # set theme to full screen width
+  fullWidthTheme = false
+  # center theme with default width
+  centerTheme = true
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Notarock's blog"
+    subtitle = ""
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "[notarock:~]$"
+      logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
+      [[languages.en.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/notarock"
+
+  [languages.fr]
+    languageName = "Français"
+    title = "Blogue de Notarock"
+    subtitle = "Portfolio et blog"
+    keywords = ""
+    copyright = ""
+    menuMore = "Plus..."
+    readMore = "Lire la suite"
+    readOtherPosts = "Voir les autres articles"
+
+    [languages.fr.params.logo]
+      logoText = "[notarock:~]$"
+      logoHomeLink = "/fr/"
+
+    [languages.fr.menu]
+      [[languages.fr.menu.main]]
+        identifier = "about"
+        name = "A Propos"
+        url = "/fr/about"
+      [[languages.fr.menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "https://github.com/notarock"
