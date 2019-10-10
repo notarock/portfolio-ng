@@ -10,5 +10,5 @@ COPY . /app
 
 RUN cd /app/site && hugo 
 
-COPY site/public /usr/share/nginx/html
+COPY /app/site/public /usr/share/nginx/html
 
