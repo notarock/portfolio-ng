@@ -6,7 +6,6 @@ categories:
   - Blog
 tags:
   - Devops
-slug: mise-en-ligne-traefik
 ---
 
 # Un changement nécessaire
@@ -80,3 +79,7 @@ Traefik permet aussi de visionner des statistiques de performance. Très cool, m
 servir puisque mon serveur est très petit et obtient peu de trafique.
 
 ![stats](/images/traefik-stats.png)
+
+## Mise à jour du 2019
+
+J'utilise maintenant docker-compose pour configurer mes containers. Plud de `docker build -t <name>`!

@@ -1,5 +1,5 @@
 ---
-title: Premier Portfolio
+title: My First Portfolio
 author: Roch D'Amour
 date: '2018-12-19'
 categories:
@@ -7,7 +7,6 @@ categories:
 tags:
   - PHP 
   - Laravel
-slug: premier-portfolio
 ---
 
 # A little history...

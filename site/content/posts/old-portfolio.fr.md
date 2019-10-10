@@ -7,7 +7,6 @@ categories:
 tags:
   - PHP 
   - Laravel
-slug: premier-portfolio
 ---
 
 # Un peu d'histoire...

@@ -1,6 +1,5 @@
 ---
-
-
+title: HackQC 2019
 author: Roch D'Amour
 date: '2019-03-23'
 categories:
@@ -8,7 +7,6 @@ categories:
   - Blog
 tags:
   - Compétition
-slug: HackQC 2019
 ---
 
 # HackQC 2019
