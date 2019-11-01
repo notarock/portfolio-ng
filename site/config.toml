@@ -23,8 +23,8 @@ DefaultContentLanguage = "fr"
 [languages]
   [languages.fr]
     languageName = "Français"
-    title = "Blogue de Notarock"
-    subtitle = "Portfolio et blog"
+    title = "Notarock"
+    subtitle = "Portfolio et blogue"
     keywords = ""
     copyright = ""
     menuMore = "Plus..."
@@ -47,7 +47,7 @@ DefaultContentLanguage = "fr"
 
   [languages.en]
     languageName = "English"
-    title = "Notarock's blog"
+    title = "Notarock"
     subtitle = "Portfolio and Blog"
     keywords = ""
     copyright = ""
