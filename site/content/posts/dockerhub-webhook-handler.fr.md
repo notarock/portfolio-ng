@@ -38,18 +38,18 @@ sur dockerhub.
 ---
 
 <center>
-![ ](/images/golang-gopher.png "Banière Docker-Gopher")
+![ ](/images/golang-gopher.png "Banière Gopher"
 </center>
 
 Premièrement, c'est important de savoir dans quoi on s'embarque. Pour cet outil,
 il y a seulement deux requis:
 
-- L'outil doit mettre à jour le conteneur en fonction sur le serveur à distance
+- L'outil doit mettre à jour le conteneur en fonction sur le serveur à distance.
 
 Fonctionnement _évènementielle_ pour ne pas questionner le registre de
-  l'image à tout les deux minutes
+  l'image à tout les deux minutes.
 
-Retirer la vieille image et le vieux conteneur une fois que le nouveau est en marche
+Retirer la vieille image et le vieux conteneur une fois que le nouveau est en marche.
 
 - Être sécuritaire
 
@@ -74,7 +74,7 @@ observant la présence de la variable d'environnement `OWNER` dans la première
 partie du `Repository.Name` envoyé dans le webhook.
 
 Par la suite, le programme va effectuer les commandes qui auraient normalement
-été faites par l'administrateur(moi) pour mettre à jour l'image. 
+été faites par l'administrateur(moi) pour mettre à jour l'image et le conteneur. 
 
 - `docker stop <Repository.Name>`
 - `docker rm <Repository.Name>`
