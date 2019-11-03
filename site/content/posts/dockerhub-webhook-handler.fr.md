@@ -38,7 +38,7 @@ sur dockerhub.
 ---
 
 <center>
-![ ](/images/golang-gopher.png "Banière Gopher"
+![ ](/images/golang-gopher.png "Banière Gopher")
 </center>
 
 Premièrement, c'est important de savoir dans quoi on s'embarque. Pour cet outil,
