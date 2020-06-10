@@ -1,7 +1,7 @@
 FROM nginx:1.17.4-alpine
 
 
-ENV VERSION 0.58.3
+ENV VERSION 0.64.0
 RUN apk add --no-cache git openssl py-pygments curl \
 	&& curl -L https://github.com/gohugoio/hugo/releases/download/v${VERSION}/hugo_${VERSION}_Linux-64bit.tar.gz | tar -xz \	
 	&& mv hugo /usr/bin/hugo \

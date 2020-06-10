@@ -169,7 +169,7 @@ qui pourrait autrement être ignoré lors de la revue de code.
 Le bot peut exécuter une tâche dans CI et mettre à jour automatiquement une liste d'avertissements
 disponible dans la section de commentaires des merge-requests. Quand il y a de
 nouveaux changements, Ci se réexécute et met à jour le commentaire. Les commentaires peuvent inclure:
-️️
+
 - ⚠ Ce MR ne comprend pas de section «AVANT».
 - ⚠ Ce MR ne comprend pas de section «APRÈS».
 - 📉 Ce MR ne modifie aucun fichier de test.

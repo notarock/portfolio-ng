@@ -163,7 +163,7 @@ that could be otherwise overlooked while reviewing.
 The bot can run a task in CI and automatically update a list of warnings
 available inside the merge requests comment section. When updated,
 the Ci reruns and update the comment. Comments can include:
-️️
+
 - ⚠ This MR does not include a `BEFORE` section.
 - ⚠ This MR does not include a `AFTER` section.
 - 📉 This MR does not modify any test files.
